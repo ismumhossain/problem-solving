@@ -8,7 +8,6 @@ def encryption(s):
     if rows * cols < n:
         rows += 1
     
-    # Build the encrypted message
     encrypted_words = []
     for col in range(cols):
         word = ""
